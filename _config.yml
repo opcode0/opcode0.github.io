@@ -1,35 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 此config文件用于全局设置，设置一次，之后很少需要编辑
+# 如果更改此文件，需要重启服务器才能生效
 
-# Theme Settings
+# 
 #
-# Review documentation to determine if you should use `theme` or `remote_theme`
+# 如果使用 `theme` or `remote_theme`，则不需要设置 `minimal_mistakes_skin`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # 皮肤选项："air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings
-locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+# 网站设置
+locale                   : "zh-CN" #站点区域设置 "en-US", "zh-CN"
+rtl                      : # true, false (default) # 文本方向，true为从右到左, false为从左到右
+title                    : "Blog website" # 网站标题
+title_separator          : "|" # 网站标题分隔符
+subtitle                 : "blog 尝试" # 网站标题分隔符
+name                     : "opcode0"
+description              : "opcode0 搭建的 blog website."
+url                      : "https://opcode0.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # 部署网站的子目录, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # 预览图像, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
-words_per_minute         : 200
+breadcrumbs              : true # 辅助导航方式 true, false (default)
+words_per_minute         : 200 #平均每分钟阅读字数，用于计算阅读时间
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
